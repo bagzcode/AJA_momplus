@@ -1,0 +1,221 @@
+
+Raw Blame
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 73%;
+    background: linear-gradient(0deg, #DEE0E7 20%, #CC61FFDE 60%, #5844D5 90%) no-repeat;
+}
+
+section{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NAVIGATION BAR */
+section nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* LOGO ON NAVIGATION BAR */
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+/* ICONS ON NAVIGATION BAR */
+section nav .icon i{
+    position:relative; 
+    left:-400px; 
+    font-size: 18px;
+    color: rgb(13, 13, 13);
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+section nav .icon i:hover{
+    color: #7602bd;
+}
+
+
+/* SIGN UP BUTTON ON NAVIGATION BAR */
+section nav .sign_up_button{
+    position:relative; 
+    left: 400px; 
+    font-size: 18px;
+    color: #714CDC;
+    border-radius: 5px;
+}
+
+.signup-button{
+    border-radius: 7px;
+    background-color: #714CDC;
+    color: white;
+    padding: 6px 10px;
+  }
+
+/* HEADINGS */
+h1 {
+  color: white;
+  margin-top: -10px;
+  padding-left: 10px;
+  font-family: helvetica;
+}
+
+h3 {
+  color: white;
+  margin-top: -10px;
+  padding-left: 10px;
+  font-family: helvetica;
+}
+
+/* MAIN MENU INTRODUCTION */
+.content1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 30px;
+  color: #714CDC;
+  width: 100%;
+}
+
+.content1 img{
+    width: 100px;
+    height: 300px;
+}
+
+/* WHY YOU CAN TRUST MOM+ */
+.content2 {
+  background-color: white;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 30px;
+  color: #460559;
+  width: 100%;
+}
+
+
+.why{
+    margin-top: 10px;
+    padding-top: 30px;
+    color: #460559;
+    text-align: center;
+}
+
+.logo{
+    /* margin-top: 10px;
+    padding-top: 30px; */
+    color: #460559;
+    text-align: center;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.desc{
+    margin-top: 30px;
+    padding-top: 30px;
+    color: #460559;
+}
+
+
+.container {
+    color: black;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 30px;
+    color: #460559;
+    width: 100%; 
+}
+
+.info-per-month{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.baby-month{
+    width: 175px;
+}
+
+.month-desc{
+    font-size: 30px;
+}
+
+.bebis img{
+    width: 1000px;
+    padding-left: 50px;
+}
+
+/* h1{
+    color: #4C434F;
+    margin-top: 60px;
+    padding-left: 200px;
+    font-family: helvetica;
+} */
+
+.reason-grid{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    row-gap: 50px;
+}
+
+.dot {
+    height: 65px;
+    width: 65px;
+    background-color: #D7ABF1;
+    border-radius: 200px;
+}
+
+.desc-title{
+    margin-top: 20px;
+    margin-bottom: -40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.desc{
+    font-weight: bold;
+}
+
+.approved{
+    width: 130px;
+    margin-left: 10px;
+}
+
+.doctor{
+    width: 150px;
+}
+
+h2 .desc-title{
+    padding-left: 100px;
+    padding-top: 200px;
+}

@@ -1,0 +1,188 @@
+
+Raw Blame
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    height:100%;
+    background: #FFFFFF;
+}
+
+
+section{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NAVIGATION BAR */
+section nav{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 400px;
+    background: linear-gradient(0deg, #DEE0E7, #CC61FFDE, #5844D5) no-repeat;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 0px 0px 30px 30px;
+}
+
+
+/* LOGO ON NAVIGATION BAR */
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+/* ICONS ON NAVIGATION BAR */
+section nav .icon i{
+    position:relative; 
+    left: -400px; 
+    top: 33px;
+    font-size: 18px;
+    color: rgb(13, 13, 13);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+section nav .icon i:hover{
+    color: #7602bd;
+}
+
+/* SIGN UP BUTTON ON NAVIGATION BAR */
+section nav .sign_up_button{
+    position:relative; 
+    left: 400px; 
+    top: 33px;
+    font-size: 18px;
+    color: #714CDC;
+    border-radius: 5px;
+}
+
+.signup-button{
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 10px;
+  }
+
+/* HEADINGS */
+  h1 {
+    color: #460559;
+    /* padding-left: 10px; */
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #4C434F;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+/* PARAGRAPH */
+p {
+  color: #4C434F;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+/* PAGE DESCRIPTIOPN */
+.box{
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  background-color: #FFFFFF;
+  padding: 50;
+  position:relative; 
+  margin: auto;
+  margin-top: 120px;
+  justify-content: middle;
+  position: absolute;
+}
+
+.description{
+  position: absolute;
+  width: 255px;
+  height: 23px;
+  left: 65px;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  padding: 1px 10px;
+}
+
+.description p{
+  text-align: center;
+}
+
+/* PREGNANCY DATE CALCULATOR */
+.content{   
+    text-align: justify;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 10px;
+    position: relative;
+  }
+
+.dropdown_button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 375px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.calculate_button {
+  background: #7750E0;
+  color: #ffffff;
+  border-radius: 6px; 
+  border: 0.5px solid black;
+  width: 350px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.day{
+  display: flex;
+  flex: 1fr;
+}
+.caret-down{
+  width: 30px;
+}
